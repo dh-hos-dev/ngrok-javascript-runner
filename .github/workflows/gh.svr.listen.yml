@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   oexpresstelegrafsocketio:
-    runs-on: window-latest
+    runs-on: windows-latest
     name: oexpresstelegrafsocketio
     env:
       toJSON_github: ${{ toJSON(github) }}
