@@ -1,6 +1,8 @@
 name: "oexpresstelegrafsocketio"
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "*/55 * * * *"
 jobs:
   oexpresstelegrafsocketio:
     runs-on: windows-latest
